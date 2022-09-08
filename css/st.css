@@ -1,0 +1,96 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background-color:#2f57a8;
+    font-family: 'Rubik', sans-serif;
+}
+.wrapper h2 {
+    font-size: 50px;
+    color: #FDA10D;
+    font-weight: 700;
+    padding-top: 50px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 4px #84622d;
+}
+.wrapper h4{
+    color: #Fff;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 15px;
+    /* letter-spacing: 4px; */
+}
+.headding {
+    margin: 50px auto 150px auto;
+}
+.projects {
+    margin: 50px 30px;
+}
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: repeat(auto,6); */
+    column-gap: 20px;
+    row-gap: 50px;
+    background: url("../img/ssscribble.svg");
+}
+.work-img {
+    width: 473px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.fig-conntent{
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+}
+.fig-conntent:hover{
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.50);
+}
+.fig-capt {
+    background-color: #2C3F63;
+    color: #F2C782;
+    padding: 10px 1px;
+    margin-top: -4.5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    top: 0;    
+}
+
+.fig-capt:hover ::after {
+    content: "/>";
+    color: orange;
+
+    position: absolute;
+    right: 140px;
+}
+
+.fig-capt:hover ::before {
+    content: "<";
+    color: orange;
+    position: absolute;
+    left: 140px;
+    align-items: flex-start;
+}
+
+.homebtn {
+    text-decoration: none;
+    background: #2C3F63;
+    color: #FDA10D;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+}
+.homebtn:hover {
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.50);
+}
+.btn-class {
+    margin-bottom: 50px;
+}
